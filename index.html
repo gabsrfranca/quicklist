@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quicklist</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a href="#" id="logo">
+          <img src="assets/logo.svg" alt="logo" />
+        </a>
+
+        <a href="#" class="back"><- Voltar</a>
+
+        <h1>Compras da semana</h1>
+      </header>
+
+      <form>
+        <input
+          type="text"
+          name="new-item"
+          id="new-item"
+          placeholder="Adicionar um novo item"
+        />
+        <button id="add-item" type="submit">Adicionar item</button>
+      </form>
+
+      <ul>
+        <!-- exemplo de item da lista
+        <li>
+          <div class="item">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="" />
+              <span class="checkmark"></span>
+            </div>
+            <span>Café</span>
+          </div>
+
+          <img src="assets/icons/trash.svg" alt="remover item" />
+        </li> -->
+      </ul>
+
+      <div class="warning">
+        <div>
+          <img src="assets/icons/warning-circle.svg" alt="Ícone de aviso" />
+
+          <span>O item foi removido da lista</span>
+        </div>
+
+        <img src="assets/icons/delete.svg" alt="Ícone para tirar o aviso" />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
